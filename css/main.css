@@ -1,0 +1,170 @@
+html {
+    background-color: #000;
+    font-size: 1em;
+    line-height: 1.4;
+    color: #fff;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
+    font-family: monospace;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 16px;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+.container{
+    padding-top: 50px;
+
+}
+
+.coupon{
+  overflow:auto;
+  margin:  0 auto;
+  width: 420px;
+
+}
+
+.tableScore{
+     width:100%;
+}
+
+.left{
+    text-align: left;
+    float:left;
+}
+.right{
+    width:50%;
+    text-align: right;
+    float:right;
+}
+.sportResult{
+     text-align: center;
+     width: 100%;
+     padding-top:10px;
+}
+.tableMid{
+    font-size: 20px;
+    letter-spacing: -2px;
+    line-height: 19px;
+    background-color: #00f;
+    font-family: monospace;
+    padding-left:40px;
+    margin-bottom:10px;
+}
+
+.main_coupon{
+     position: relative;
+     margin-top:20px;
+}
+
+.game{
+    width:30px;
+    text-align: right;
+    padding-right:10px;
+}
+
+.home, .away{
+    width:150px !important;
+    text-align: left;
+
+}
+.diff{
+    width:70px !important;
+    text-align: center;
+}
+.score{
+    width:80px;
+    text-align: left;
+    color: #0FF;
+    padding-left:20px;
+}
+.t_1,.t_x,.t_2{
+    width:10px;
+    text-align: left;
+    color: #FF0;
+}
+
+.r_1,.r_x,.r_2{
+    width:60px;
+    text-align: left;
+    color: #FF0;
+}
+.result{
+    clear:both;
+    background-color: #00f;
+    font-family: monospace;
+    padding-left:20px;
+    margin-top:20px;
+}
+
+.correct{
+    width:90px;
+    text-align: left;
+    padding-right:10px;
+
+
+}
+.sum{
+    width:170px;
+    text-align: right;
+}
+
+.oms{
+    clear:both;
+    background-color: red;
+    font-family: monospace;
+    padding-left:20px;
+    margin-bottom:30px;
+}
+
+.oms_552{
+    clear:both;
+    font-family: monospace;
+    padding-top:40px;
+    color: #0FF;
+    text-align: center;
+    padding-bottom:30px;
+
+}
+
+.nav{
+  
+    padding-left:50px;
+    background-color: #F00;
+}
+
+.menu_1{
+     padding-top:20px;
+     color: #0FF;
+
+   
+
+}
+
+.menu_2{
+     color: yellow;
+}
+
+.menu_info{
+     padding-top:40px;
+}
+
+
+@media screen and (max-width:400px) {
+  .coupon{
+        width: 375px;
+   }  
+}
+
+
+@media screen and (max-width:350px) {
+  .coupon{
+        width: 320px;
+    }  
+   .tableMid, body,td,table{
+     font-size: 10px !important;
+   }
+}
